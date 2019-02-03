@@ -57,7 +57,7 @@ public class Task implements Comparable<Task> {
         }
         if (result == 0) {
 //           result = this.priorytet.compareTo(o.getPriorytet());
-           result = o.getPriorytet().compareTo(this.priorytet);
+            result = o.getPriorytet().compareTo(this.priorytet);
 
         }
         if (result == 0) {
