@@ -8,6 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        LiczbaPierwsza liczbaPierwsza = new LiczbaPierwsza();
+        System.out.println(liczbaPierwsza.getPrime(56));
     }
 }
