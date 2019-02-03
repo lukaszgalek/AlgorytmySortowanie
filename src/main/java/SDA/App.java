@@ -17,10 +17,10 @@ public class App
         LiczbaPierwsza liczbaPierwsza = new LiczbaPierwsza();
         System.out.println(liczbaPierwsza.getPrime(56));
 
-Task task = new Task(WYSOKI, Status.NOWE,"nazwa","zrobic to i to ", LocalDate.parse("2019-02-03"));
-Task task1 = new Task(NISKI, Status.ZAKOŃCZONE,"A","rób to i tamto ", LocalDate.parse("2010-03-05"));
-Task task2 = new Task(WYSOKI, Status.WtrakcieREALIZACJI,"A","zrobic cos ", LocalDate.parse("2010-03-05"));
-Task task3 = new Task(ŚREDNI, Status.NOWE,"jakas nazwa","zrobic cos innego ", LocalDate.parse("2014-10-10"));
+Task task = new Task(WYSOKI, Status.NOWE,"A","C", LocalDate.parse("2019-02-03"));
+Task task1 = new Task(NISKI, Status.ZAKOŃCZONE,"A","B", LocalDate.parse("2010-03-05"));
+Task task2 = new Task(WYSOKI, Status.WtrakcieREALIZACJI,"A","A", LocalDate.parse("2010-03-05"));
+Task task3 = new Task(ŚREDNI, Status.NOWE,"A","C", LocalDate.parse("2014-10-10"));
 
         List<Task>list = new LinkedList<>();
         list.add(task);
